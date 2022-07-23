@@ -12,6 +12,10 @@ class Mythic:
     def __init__(self) -> None:
         pass
 
+class Boots:
+    def __init__(self) -> None:
+        pass
+
 champion_pool = []
 
 champion_pool.append(Champion("Aatrox", False, False))
