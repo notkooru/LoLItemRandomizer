@@ -467,5 +467,18 @@ final_build.append(random.choice(legendary_pool))
 final_build.append(random.choice(legendary_pool))
 
 final_runes = []
+primary_tree = random.choice(runes_pool)
+secondary_tree = random.choice(runes_pool)
+
+if primary_tree == secondary_tree:
+    secondary_tree = random.choice(runes_pool)
+secondary_tree.pop(0)
+secondary_tree.pop(random.randrange(len(secondary_tree)))
 
 print(f"{final_build[0].name}\nBuild: {final_build[1].name}, {final_build[2].name}, {final_build[3].name}, {final_build[4].name}, {final_build[5].name}, {final_build[6].name}")
+
+for slot in primary_tree:
+    print(random.choice(slot).name)
+
+for slot in secondary_tree:
+    print(random.choice(slot).name)
