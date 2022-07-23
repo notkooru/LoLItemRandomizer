@@ -8,11 +8,6 @@ class Champion:
         self.hasMana = hasMana
         self.isRanged = isRanged
 
-class Item:
-    def __init__(self, name, isMythic) -> None:
-        self.name = name
-        self.isMythic = isMythic
-
 champion_pool = []
 
 champion_pool.append(Champion("Aatrox", False, False))
