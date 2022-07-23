@@ -44,6 +44,12 @@ legendary_pool = [] #✓
 runes_pool = [] #✓
 shard_pool = [] #✓
 
+precision = []
+domination = []
+sorcery = []
+resolve = []
+inspiration = []
+
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
 champion_pool.append(Champion("Ahri", True, True))
