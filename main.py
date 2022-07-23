@@ -36,9 +36,9 @@ class Shards:
         self.slot = slot
 
 champion_pool = []  #✓
-boots_pool = []
-mythic_pool = []
-legendary_pool = []
+boots_pool = [] #✓
+mythic_pool = [] #✓
+legendary_pool = [] #✓
 runes_pool = []
 shard_pool = []
 
