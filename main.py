@@ -9,16 +9,20 @@ class Champion:
         self.isRanged = isRanged
 
 class Mythic:
-    def __init__(self, name) -> None:
+    def __init__(self, name, hasMana, hasManaRegen) -> None:
         self.name = name
+        self.hasMana = hasMana
+        self.hasManaRegen = hasManaRegen
 
 class Boots:
     def __init__(self, name) -> None:
         self.name = name
 
 class Legendary:
-    def __init__(self, name) -> None:
+    def __init__(self, name, hasMana, hasManaRegen) -> None:
         self.name = name
+        self.hasMana = hasMana
+        self.hasManaRegen = hasManaRegen
 
 champion_pool = []  #✓
 boots_pool = []
@@ -181,6 +185,7 @@ champion_pool.append(Champion("Pyke", True,False))
 champion_pool.append(Champion("Poppy", True,False))
 champion_pool.append(Champion("Pantheon", True,False))
 champion_pool.append(Champion("Ornn", True,False))
+
 #Boots
 boots_pool.append(Boots("Boots of Speed")) #Tier 1 boots
 boots_pool.append(Boots("Berserker's Greaves"))
@@ -190,6 +195,7 @@ boots_pool.append(Boots("Ionian Boots of Lucidity"))
 boots_pool.append(Boots("Mercury's Threads"))
 boots_pool.append(Boots("Plated Steelcaps"))
 boots_pool.append(Boots("Sorcerer's Shoes"))
+
 #Mythics
 mythic_pool.append(Mythic("Eclipse"))
 mythic_pool.append(Mythic("Crown of the Shattered Queen"))
@@ -215,6 +221,7 @@ mythic_pool.append(Mythic("Stridebreaker"))
 mythic_pool.append(Mythic("Sunfire Aegis"))
 mythic_pool.append(Mythic("Trinity Force"))
 mythic_pool.append(Mythic("Turbo Chemtank"))
+
 #Legendary
 legendary_pool.append(Legendary("Abyssal Mask"))
 legendary_pool.append(Legendary("Anathema's Chains"))
