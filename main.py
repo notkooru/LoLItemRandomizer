@@ -45,10 +45,34 @@ runes_pool = [] #✓
 shard_pool = [] #✓
 
 precision = []
+precision_keystone = []
+precision_slot1 = []
+precision_slot2 = []
+precision_slot3 = []
+
 domination = []
+domination_keystone = []
+domination_slot1 = []
+domination_slot2 = []
+domination_slot3 = []
+
 sorcery = []
+sorcery_keystone = []
+sorcery_slot1 = []
+sorcery_slot2 = []
+sorcery_slot3 = []
+
 resolve = []
+resolve_keystone = []
+resolve_slot1 = []
+resolve_slot2 = []
+resolve_slot3 = []
+
 inspiration = []
+inspiration_keystone = []
+inspiration_slot1 = []
+inspiration_slot2 = []
+inspiration_slot3 = []
 
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
@@ -318,73 +342,106 @@ legendary_pool.append(Legendary("Zeke's Convergence", False, False))
 legendary_pool.append(Legendary("Zhonya's Hourglass", False, False))
 
 #runes
-runes_pool.append(Runes("Press the Attack",1,"Precision"))
-runes_pool.append(Runes("Lethal Tempo",1,"Precision"))
-runes_pool.append(Runes("Fleet Footwork",1,"Precision"))
-runes_pool.append(Runes("Conqueror",1,"Precision"))
-runes_pool.append(Runes("Overheal",2,"Precision"))
-runes_pool.append(Runes("Triumph",2,"Precision"))
-runes_pool.append(Runes("Presence of Mind",2,"Precision"))
-runes_pool.append(Runes("Legend:Alacrity",3,"Precision"))
-runes_pool.append(Runes("Legend:Tenacity",3,"Precision"))
-runes_pool.append(Runes("Legend:Bloodline",3,"Precision"))
-runes_pool.append(Runes("Coup de Grace",4,"Precision"))
-runes_pool.append(Runes("Cut Down",4,"Precision"))
-runes_pool.append(Runes("Last Stand",4,"Precision"))
+#precision
+precision_keystone.append(Runes("Press the Attack",1,"Precision"))
+precision_keystone.append(Runes("Lethal Tempo",1,"Precision"))
+precision_keystone.append(Runes("Fleet Footwork",1,"Precision"))
+precision_keystone.append(Runes("Conqueror",1,"Precision"))
+precision_slot1.append(Runes("Overheal",2,"Precision"))
+precision_slot1.append(Runes("Triumph",2,"Precision"))
+precision_slot1.append(Runes("Presence of Mind",2,"Precision"))
+precision_slot2.append(Runes("Legend:Alacrity",3,"Precision"))
+precision_slot2.append(Runes("Legend:Tenacity",3,"Precision"))
+precision_slot2.append(Runes("Legend:Bloodline",3,"Precision"))
+precision_slot3.append(Runes("Coup de Grace",4,"Precision"))
+precision_slot3.append(Runes("Cut Down",4,"Precision"))
+precision_slot3.append(Runes("Last Stand",4,"Precision"))
 #domination
-runes_pool.append(Runes("Electrocute",1,"Domination"))
-runes_pool.append(Runes("Predator",1,"Domination"))
-runes_pool.append(Runes("Dark Harvest",1,"Domination"))
-runes_pool.append(Runes("Hail of Blades",1,"Domination"))
-runes_pool.append(Runes("Cheap Shot",2,"Domination"))
-runes_pool.append(Runes("Taste of Blood",2,"Domination"))
-runes_pool.append(Runes("Sudden impact",2,"Domination"))
-runes_pool.append(Runes("Zombie Ward",3,"Domination"))
-runes_pool.append(Runes("Ghost Poro",3,"Domination"))
-runes_pool.append(Runes("Eyeball Collection",3,"Domination"))
-runes_pool.append(Runes("Treasure Hunter",4,"Domination"))
-runes_pool.append(Runes("Ingenious Hunter",4,"Domination"))
-runes_pool.append(Runes("Relentless Hunter",4,"Domination"))
-runes_pool.append(Runes("Ultimate Hunter",4,"Domination"))
+domination_keystone.append(Runes("Electrocute",1,"Domination"))
+domination_keystone.append(Runes("Predator",1,"Domination"))
+domination_keystone.append(Runes("Dark Harvest",1,"Domination"))
+domination_keystone.append(Runes("Hail of Blades",1,"Domination"))
+domination_slot1.append(Runes("Cheap Shot",2,"Domination"))
+domination_slot1.append(Runes("Taste of Blood",2,"Domination"))
+domination_slot1.append(Runes("Sudden impact",2,"Domination"))
+domination_slot2.append(Runes("Zombie Ward",3,"Domination"))
+domination_slot2.append(Runes("Ghost Poro",3,"Domination"))
+domination_slot2.append(Runes("Eyeball Collection",3,"Domination"))
+domination_slot3.append(Runes("Treasure Hunter",4,"Domination"))
+domination_slot3.append(Runes("Ingenious Hunter",4,"Domination"))
+domination_slot3.append(Runes("Relentless Hunter",4,"Domination"))
+domination_slot3.append(Runes("Ultimate Hunter",4,"Domination"))
 #sorcery
-runes_pool.append(Runes("Summon Aery",1,"Sorcery"))
-runes_pool.append(Runes("Arcane Comet",1,"Sorcery"))
-runes_pool.append(Runes("Phase Rush",1,"Sorcery"))
-runes_pool.append(Runes("Nullifying Orb",2,"Sorcery"))
-runes_pool.append(Runes("Manaflow Band",2,"Sorcery"))
-runes_pool.append(Runes("Nimbus Cloak",2,"Sorcery"))
-runes_pool.append(Runes("Transcendence",3,"Sorcery"))
-runes_pool.append(Runes("Celerity",3,"Sorcery"))
-runes_pool.append(Runes("Absolute Focus",3,"Sorcery"))
-runes_pool.append(Runes("Scorch",4,"Sorcery"))
-runes_pool.append(Runes("Waterwalking",4,"Sorcery"))
-runes_pool.append(Runes("Gathering Storm",4,"Sorcery"))
+sorcery_keystone.append(Runes("Summon Aery",1,"Sorcery"))
+sorcery_keystone.append(Runes("Arcane Comet",1,"Sorcery"))
+sorcery_keystone.append(Runes("Phase Rush",1,"Sorcery"))
+sorcery_slot1.append(Runes("Nullifying Orb",2,"Sorcery"))
+sorcery_slot1.append(Runes("Manaflow Band",2,"Sorcery"))
+sorcery_slot1.append(Runes("Nimbus Cloak",2,"Sorcery"))
+sorcery_slot2.append(Runes("Transcendence",3,"Sorcery"))
+sorcery_slot2.append(Runes("Celerity",3,"Sorcery"))
+sorcery_slot2.append(Runes("Absolute Focus",3,"Sorcery"))
+sorcery_slot3.append(Runes("Scorch",4,"Sorcery"))
+sorcery_slot3.append(Runes("Waterwalking",4,"Sorcery"))
+sorcery_slot3.append(Runes("Gathering Storm",4,"Sorcery"))
 #resolve
-runes_pool.append(Runes("Grasp of the Undying",1,"Resolve"))
-runes_pool.append(Runes("Aftershock",1,"Resolve"))
-runes_pool.append(Runes("Guardian",1,"Resolve"))
-runes_pool.append(Runes("Demolish",2,"Resolve"))
-runes_pool.append(Runes("Font of Life",2,"Resolve"))
-runes_pool.append(Runes("Shield Bash",2,"Resolve"))
-runes_pool.append(Runes("Conditioning",3,"Resolve"))
-runes_pool.append(Runes("Second Wind",3,"Resolve"))
-runes_pool.append(Runes("Bone Plating",3,"Resolve"))
-runes_pool.append(Runes("Overgrowth",4,"Resolve"))
-runes_pool.append(Runes("Revitalize",4,"Resolve"))
-runes_pool.append(Runes("Unflinching",4,"Resolve"))
+resolve_keystone.append(Runes("Grasp of the Undying",1,"Resolve"))
+resolve_keystone.append(Runes("Aftershock",1,"Resolve"))
+resolve_keystone.append(Runes("Guardian",1,"Resolve"))
+resolve_slot1.append(Runes("Demolish",2,"Resolve"))
+resolve_slot1.append(Runes("Font of Life",2,"Resolve"))
+resolve_slot1.append(Runes("Shield Bash",2,"Resolve"))
+resolve_slot2.append(Runes("Conditioning",3,"Resolve"))
+resolve_slot2.append(Runes("Second Wind",3,"Resolve"))
+resolve_slot2.append(Runes("Bone Plating",3,"Resolve"))
+resolve_slot3.append(Runes("Overgrowth",4,"Resolve"))
+resolve_slot3.append(Runes("Revitalize",4,"Resolve"))
+resolve_slot3.append(Runes("Unflinching",4,"Resolve"))
 #inspiration
-runes_pool.append(Runes("Glacial Augment",1,"Inspiration"))
-runes_pool.append(Runes("Unsealed Spellbook",1,"Inspiration"))
-runes_pool.append(Runes("First Strike",1,"Inspiration"))
-runes_pool.append(Runes("Hextech Flashtraption",2,"Inspiration"))
-runes_pool.append(Runes("Magical Footwear",2,"Inspiration"))
-runes_pool.append(Runes("Perfect Timing",2,"Inspiration"))
-runes_pool.append(Runes("Future's Market",3,"Inspiration"))
-runes_pool.append(Runes("Minion Dematerializer",3,"Inspiration"))
-runes_pool.append(Runes("Biscuit Delivery",3,"Inspiration"))
-runes_pool.append(Runes("Cosmic Insight",4,"Inspiration"))
-runes_pool.append(Runes("Approach velocity",4,"Inspiration"))
-runes_pool.append(Runes("Time Warp Tonic",4,"Inspiration"))
+inspiration_keystone.append(Runes("Glacial Augment",1,"Inspiration"))
+inspiration_keystone.append(Runes("Unsealed Spellbook",1,"Inspiration"))
+inspiration_keystone.append(Runes("First Strike",1,"Inspiration"))
+inspiration_slot1.append(Runes("Hextech Flashtraption",2,"Inspiration"))
+inspiration_slot1.append(Runes("Magical Footwear",2,"Inspiration"))
+inspiration_slot1.append(Runes("Perfect Timing",2,"Inspiration"))
+inspiration_slot2.append(Runes("Future's Market",3,"Inspiration"))
+inspiration_slot2.append(Runes("Minion Dematerializer",3,"Inspiration"))
+inspiration_slot2.append(Runes("Biscuit Delivery",3,"Inspiration"))
+inspiration_slot3.append(Runes("Cosmic Insight",4,"Inspiration"))
+inspiration_slot3.append(Runes("Approach velocity",4,"Inspiration"))
+inspiration_slot3.append(Runes("Time Warp Tonic",4,"Inspiration"))
+#trees
+precision.append(precision_keystone)
+precision.append(precision_slot1)
+precision.append(precision_slot2)
+precision.append(precision_slot3)
+
+domination.append(domination_keystone)
+domination.append(domination_slot1)
+domination.append(domination_slot2)
+domination.append(domination_slot3)
+
+sorcery.append(sorcery_keystone)
+sorcery.append(sorcery_slot1)
+sorcery.append(sorcery_slot2)
+sorcery.append(sorcery_slot3)
+
+resolve.append(resolve_keystone)
+resolve.append(resolve_slot1)
+resolve.append(resolve_slot2)
+resolve.append(resolve_slot3)
+
+inspiration.append(inspiration_keystone)
+inspiration.append(inspiration_slot1)
+inspiration.append(inspiration_slot2)
+inspiration.append(inspiration_slot3)
+
+#pool
+runes_pool.append(precision)
+runes_pool.append(domination)
+runes_pool.append(sorcery)
+runes_pool.append(resolve)
+runes_pool.append(inspiration)
 
 #shards
 #slot 1
