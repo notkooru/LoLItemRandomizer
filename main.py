@@ -1,3 +1,5 @@
+import random
+
 class Champion:
 
     def __init__(self, name, hasMana, isRanged) -> None:
@@ -380,14 +382,14 @@ runes_pool.append(Runes("Time Warp Tonic",4,"Inspiration"))
 
 #shards
 #slot 1
-shard_pool.append(Shards("Adaptive"), 1)
-shard_pool.append(Shards("Attack Speed"), 1)
-shard_pool.append(Shards("Ability Haste"), 1)
+shard_pool.append(Shards("Adaptive", 1))
+shard_pool.append(Shards("Attack Speed", 1))
+shard_pool.append(Shards("Ability Haste", 1))
 #slot 2
-shard_pool.append(Shards("Adaptive"), 2)
-shard_pool.append(Shards("Armor"), 2)
-shard_pool.append(Shards("Magic Resist"), 2)
+shard_pool.append(Shards("Adaptive", 2))
+shard_pool.append(Shards("Armor", 2))
+shard_pool.append(Shards("Magic Resist", 2))
 #slot 3
-shard_pool.append(Shards("Health"), 2)
-shard_pool.append(Shards("Armor"), 2)
-shard_pool.append(Shards("Magic Resist"), 2)
+shard_pool.append(Shards("Health", 2))
+shard_pool.append(Shards("Armor", 2))
+shard_pool.append(Shards("Magic Resist", 2))
