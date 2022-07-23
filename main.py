@@ -21,6 +21,7 @@ class Legendary:
         pass
 
 champion_pool = []
+boots_pool = []
 
 champion_pool.append(Champion("Aatrox", False, False))
 champion_pool.append(Champion("Ahri", True, True))
