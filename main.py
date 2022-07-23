@@ -24,6 +24,10 @@ class Legendary:
         self.hasMana = hasMana
         self.hasManaRegen = hasManaRegen
 
+class Runes:
+    def __init__(self, name) -> None:
+        self.name = name
+
 champion_pool = []  #✓
 boots_pool = []
 mythic_pool = []
