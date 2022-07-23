@@ -25,6 +25,7 @@ boots_pool = []
 mythic_pool = []
 legendary_pool = []
 
+#Champs
 champion_pool.append(Champion("Aatrox", False, False))
 champion_pool.append(Champion("Ahri", True, True))
 champion_pool.append(Champion("Akali", False, False))
@@ -180,5 +181,37 @@ champion_pool.append(Champion("Pyke", True,False))
 champion_pool.append(Champion("Poppy", True,False))
 champion_pool.append(Champion("Pantheon", True,False))
 champion_pool.append(Champion("Ornn", True,False))
-
-legendary_pool.append
+#Boots
+boots_pool.append(Boots("Boots of Speed")) #Tier 1 boots
+boots_pool.append(Boots("Berserker's Greaves"))
+boots_pool.append(Boots("Mobility Boots"))
+boots_pool.append(Boots("Boots of Swiftness"))
+boots_pool.append(Boots("Ionian Boots of Lucidity"))
+boots_pool.append(Boots("Mercury's Threads"))
+boots_pool.append(Boots("Plated Steelcaps"))
+boots_pool.append(Boots("Sorcerer's Shoes"))
+#Mythics
+mythic_pool.append(Mythic("Eclipse"))
+mythic_pool.append(Mythic("Crown of the Shattered Queen"))
+mythic_pool.append(Mythic("Duskblade of Draktharr"))
+mythic_pool.append(Mythic("Evenshroud"))
+mythic_pool.append(Mythic("Everfrost"))
+mythic_pool.append(Mythic("Frostfire Gauntlet"))
+mythic_pool.append(Mythic("Galeforce"))
+mythic_pool.append(Mythic("Goredrinker"))
+mythic_pool.append(Mythic("Hextech Rocketbelt"))
+mythic_pool.append(Mythic("Immortal Shieldbow"))
+mythic_pool.append(Mythic("Imperial Mandate"))
+mythic_pool.append(Mythic("Kraken Slayer"))
+mythic_pool.append(Mythic("Liandry's Anguish"))
+mythic_pool.append(Mythic("Locket of the Iron Solari"))
+mythic_pool.append(Mythic("Luden's Tempest"))
+mythic_pool.append(Mythic("Moonstone Renewer"))
+mythic_pool.append(Mythic("Night Harvester"))
+mythic_pool.append(Mythic("Prowler's Claw"))
+mythic_pool.append(Mythic("Riftmaker"))
+mythic_pool.append(Mythic("Shurelya's Battlesong"))
+mythic_pool.append(Mythic("Stridebreaker"))
+mythic_pool.append(Mythic("Sunfire Aegis"))
+mythic_pool.append(Mythic("Trinity Force"))
+mythic_pool.append(Mythic("Turbo Chemtank"))
