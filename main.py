@@ -22,6 +22,7 @@ class Legendary:
 
 champion_pool = []
 boots_pool = []
+mythic_pool = []
 
 champion_pool.append(Champion("Aatrox", False, False))
 champion_pool.append(Champion("Ahri", True, True))
