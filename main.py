@@ -9,16 +9,16 @@ class Champion:
         self.isRanged = isRanged
 
 class Mythic:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, name) -> None:
+        self.name = name
 
 class Boots:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, name) -> None:
+        self.name = name
 
 class Legendary:
-    def __init__(self) -> None:
-        pass
+    def __init__(self, name) -> None:
+        self.name = name
 
 champion_pool = []
 boots_pool = []
@@ -180,3 +180,5 @@ champion_pool.append(Champion("Pyke", True,False))
 champion_pool.append(Champion("Poppy", True,False))
 champion_pool.append(Champion("Pantheon", True,False))
 champion_pool.append(Champion("Ornn", True,False))
+
+legendary_pool.append
