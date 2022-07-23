@@ -20,7 +20,7 @@ class Legendary:
     def __init__(self, name) -> None:
         self.name = name
 
-champion_pool = []
+champion_pool = []  #✓
 boots_pool = []
 mythic_pool = []
 legendary_pool = []
