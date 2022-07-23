@@ -30,11 +30,17 @@ class Runes:
         self.row = row
         self.tree = tree
 
+class Shards:
+    def __init__(self, type, slot) -> None:
+        self.type = type
+        self.slot = slot
+
 champion_pool = []  #✓
 boots_pool = []
 mythic_pool = []
 legendary_pool = []
 runes_pool = []
+shard_pool = []
 
 
 #Champs
@@ -318,3 +324,17 @@ runes_pool.append(Runes("Legend:Bloodline",3,"Precision"))
 runes_pool.append(Runes("Coup de Grace",4,"Precision"))
 runes_pool.append(Runes("Cut Down",4,"Precision"))
 runes_pool.append(Runes("Last Stand",4,"Precision"))
+
+#shards
+#slot 1
+shard_pool.append(Shards("Adaptive"), 1)
+shard_pool.append(Shards("Attack Speed"), 1)
+shard_pool.append(Shards("Ability Haste"), 1)
+#slot 2
+shard_pool.append(Shards("Adaptive"), 2)
+shard_pool.append(Shards("Armor"), 2)
+shard_pool.append(Shards("Magic Resist"), 2)
+#slot 3
+shard_pool.append(Shards("Health"), 2)
+shard_pool.append(Shards("Armor"), 2)
+shard_pool.append(Shards("Magic Resist"), 2)
