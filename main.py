@@ -475,14 +475,15 @@ if primary_tree == secondary_tree:
 secondary_tree.pop(0)
 secondary_tree.pop(random.randrange(len(secondary_tree)))
 
+for slot in primary_tree:
+    final_runes.append(random.choice(slot))
+
+for slot in secondary_tree:
+    final_runes.append(random.choice(slot))
+
 roles = ["top", "yongol", "mid", "adc", "support"]
 
 print(f"{final_build[0].name}\nBuild: {final_build[1].name}, {final_build[2].name}, {final_build[3].name}, {final_build[4].name}, {final_build[5].name}, {final_build[6].name}")
-
-for slot in primary_tree:
-    print(random.choice(slot).name)
-
-for slot in secondary_tree:
-    print(random.choice(slot).name)
+print(f"Runes: {final_runes[0].name}, {final_runes[1].name}, {final_runes[2].name}, {final_runes[3].name}, {final_runes[4].name}, {final_runes[5].name}")
 
 print(random.choice(roles))
