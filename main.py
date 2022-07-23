@@ -25,13 +25,17 @@ class Legendary:
         self.hasManaRegen = hasManaRegen
 
 class Runes:
-    def __init__(self, name) -> None:
+    def __init__(self, name,row,tree) -> None:
         self.name = name
+        self.row = row
+        self.tree = tree
 
 champion_pool = []  #✓
 boots_pool = []
 mythic_pool = []
 legendary_pool = []
+runes_pool = []
+
 
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
@@ -299,3 +303,18 @@ legendary_pool.append(Legendary("Wit's End"))
 legendary_pool.append(Legendary("Youmuu's Ghostblade"))
 legendary_pool.append(Legendary("Zeke's Convergence"))
 legendary_pool.append(Legendary("Zhonya's Hourglass"))
+
+#runes
+runes_pool.append(Runes("Press the Attack",1,"Precision"))
+runes_pool.append(Runes("Lethal Tempo",1,"Precision"))
+runes_pool.append(Runes("Fleet Footwork",1,"Precision"))
+runes_pool.append(Runes("Conqueror",1,"Precision"))
+runes_pool.append(Runes("Overheal",2,"Precision"))
+runes_pool.append(Runes("Triumph",2,"Precision"))
+runes_pool.append(Runes("Presence of Mind",2,"Precision"))
+runes_pool.append(Runes("Legend:Alacrity",3,"Precision"))
+runes_pool.append(Runes("Legend:Tenacity",3,"Precision"))
+runes_pool.append(Runes("Legend:Bloodline",3,"Precision"))
+runes_pool.append(Runes("Coup de Grace",4,"Precision"))
+runes_pool.append(Runes("Cut Down",4,"Precision"))
+runes_pool.append(Runes("Last Stand",4,"Precision"))
