@@ -39,9 +39,8 @@ champion_pool = []  #✓
 boots_pool = [] #✓
 mythic_pool = [] #✓
 legendary_pool = [] #✓
-runes_pool = []
-shard_pool = []
-
+runes_pool = [] #✓
+shard_pool = [] #✓
 
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
@@ -324,7 +323,7 @@ runes_pool.append(Runes("Legend:Bloodline",3,"Precision"))
 runes_pool.append(Runes("Coup de Grace",4,"Precision"))
 runes_pool.append(Runes("Cut Down",4,"Precision"))
 runes_pool.append(Runes("Last Stand",4,"Precision"))
-
+#domination
 runes_pool.append(Runes("Electrocute",1,"Domination"))
 runes_pool.append(Runes("Predator",1,"Domination"))
 runes_pool.append(Runes("Dark Harvest",1,"Domination"))
@@ -339,7 +338,7 @@ runes_pool.append(Runes("Treasure Hunter",4,"Domination"))
 runes_pool.append(Runes("Ingenious Hunter",4,"Domination"))
 runes_pool.append(Runes("Relentless Hunter",4,"Domination"))
 runes_pool.append(Runes("Ultimate Hunter",4,"Domination"))
-
+#sorcery
 runes_pool.append(Runes("Summon Aery",1,"Sorcery"))
 runes_pool.append(Runes("Arcane Comet",1,"Sorcery"))
 runes_pool.append(Runes("Phase Rush",1,"Sorcery"))
@@ -352,7 +351,7 @@ runes_pool.append(Runes("Absolute Focus",3,"Sorcery"))
 runes_pool.append(Runes("Scorch",4,"Sorcery"))
 runes_pool.append(Runes("Waterwalking",4,"Sorcery"))
 runes_pool.append(Runes("Gathering Storm",4,"Sorcery"))
-
+#resolve
 runes_pool.append(Runes("Grasp of the Undying",1,"Resolve"))
 runes_pool.append(Runes("Aftershock",1,"Resolve"))
 runes_pool.append(Runes("Guardian",1,"Resolve"))
@@ -365,7 +364,7 @@ runes_pool.append(Runes("Bone Plating",3,"Resolve"))
 runes_pool.append(Runes("Overgrowth",4,"Resolve"))
 runes_pool.append(Runes("Revitalize",4,"Resolve"))
 runes_pool.append(Runes("Unflinching",4,"Resolve"))
-
+#inspiration
 runes_pool.append(Runes("Glacial Augment",1,"Inspiration"))
 runes_pool.append(Runes("Unsealed Spellbook",1,"Inspiration"))
 runes_pool.append(Runes("First Strike",1,"Inspiration"))
@@ -378,8 +377,6 @@ runes_pool.append(Runes("Biscuit Delivery",3,"Inspiration"))
 runes_pool.append(Runes("Cosmic Insight",4,"Inspiration"))
 runes_pool.append(Runes("Approach velocity",4,"Inspiration"))
 runes_pool.append(Runes("Time Warp Tonic",4,"Inspiration"))
-
-
 
 #shards
 #slot 1
