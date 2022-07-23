@@ -393,3 +393,16 @@ shard_pool.append(Shards("Magic Resist", 2))
 shard_pool.append(Shards("Health", 2))
 shard_pool.append(Shards("Armor", 2))
 shard_pool.append(Shards("Magic Resist", 2))
+
+final_build = []
+final_build.append(random.choice(champion_pool))
+final_build.append(random.choice(mythic_pool))
+final_build.append(random.choice(boots_pool))
+final_build.append(random.choice(legendary_pool))
+final_build.append(random.choice(legendary_pool))
+final_build.append(random.choice(legendary_pool))
+final_build.append(random.choice(legendary_pool))
+
+final_runes = []
+
+print(f"{final_build[0].name}\nBuild: {final_build[1].name}, {final_build[2].name}, {final_build[3].name}, {final_build[4].name}, {final_build[5].name}, {final_build[6].name}")
