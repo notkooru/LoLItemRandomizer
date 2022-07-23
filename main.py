@@ -7,3 +7,8 @@ class Champion:
         self.name = name
         self.hasMana = hasMana
         self.isRanged = isRanged
+
+class Item:
+    def __init__(self, name, isMythic) -> None:
+        self.name = name
+        self.isMythic = isMythic
