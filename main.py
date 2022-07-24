@@ -463,7 +463,11 @@ for slot in primary_tree:
 for slot in secondary_tree:
     final_runes.append(random.choice(slot))
 
-print(f"{final_build[0].name}\nBuild: {final_build[1].name}, {final_build[2].name}, {final_build[3].name}, {final_build[4].name}, {final_build[5].name}, {final_build[6].name}")
-print(f"Runes: {final_runes[0].name}, {final_runes[1].name}, {final_runes[2].name}, {final_runes[3].name}, {final_runes[4].name}, {final_runes[5].name}")
+final_shards = []
+for slot in shard_pool:
+    final_shards.append(random.choice(slot))
 
+print(f"{final_build[0].name}\nBuild: {final_build[1].name}, {final_build[2]}, {final_build[3].name}, {final_build[4].name}, {final_build[5].name}, {final_build[6].name}")
+print(f"Runes: {final_runes[0].name}, {final_runes[1].name}, {final_runes[2].name}, {final_runes[3].name}, {final_runes[4].name}, {final_runes[5].name}")
+print(f"Shards: {final_shards[0]}, {final_shards[1]}, {final_shards[2]}")
 print(random.choice(roles))
