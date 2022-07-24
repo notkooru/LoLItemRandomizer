@@ -72,6 +72,8 @@ shards_slot2 = ["Adaptive", "Armor", "Magic Resist"]
 shards_slot3 = ["Health", "Armor", "Magic Resist"]
 shard_pool.extend([shards_slot1, shards_slot2, shards_slot3])
 
+roles = ["Top", "Jungle", "Mid", "Bottom", "Support"]
+
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
 champion_pool.append(Champion("Ahri", True, True))
@@ -464,8 +466,6 @@ for slot in primary_tree:
 
 for slot in secondary_tree:
     final_runes.append(random.choice(slot))
-
-roles = ["top", "yongol", "mid", "adc", "support"]
 
 print(f"{final_build[0].name}\nBuild: {final_build[1].name}, {final_build[2].name}, {final_build[3].name}, {final_build[4].name}, {final_build[5].name}, {final_build[6].name}")
 print(f"Runes: {final_runes[0].name}, {final_runes[1].name}, {final_runes[2].name}, {final_runes[3].name}, {final_runes[4].name}, {final_runes[5].name}")
