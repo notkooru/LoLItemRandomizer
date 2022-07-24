@@ -271,10 +271,10 @@ legendary_pool.append(Legendary("Ardent Censer", False, True))
 legendary_pool.append(Legendary("Axiom Arc", False, False))
 legendary_pool.append(Legendary("Banshee's Veil", False, False))
 legendary_pool.append(Legendary("Black Cleaver", False, False))
-legendary_pool.append(Legendary("Black Mist Scythe", False, True)) #support starter
+#legendary_pool.append(Legendary("Black Mist Scythe", False, True)) #support starter
 legendary_pool.append(Legendary("Blade of the Ruined King", False, False))
 legendary_pool.append(Legendary("Bloodthirster", False, False))
-legendary_pool.append(Legendary("Bulkward of the Mountain", False, False)) #support starter
+#legendary_pool.append(Legendary("Bulkward of the Mountain", False, False)) #support starter
 legendary_pool.append(Legendary("Chempunk Chainsword", False, False))
 legendary_pool.append(Legendary("Chemptech Putrifier", False, True))
 legendary_pool.append(Legendary("Cosmic Drive", False, False))
@@ -305,7 +305,7 @@ legendary_pool.append(Legendary("Mortal Reminder", False, False))
 legendary_pool.append(Legendary("Muramana", True, False)) #tear finished
 legendary_pool.append(Legendary("Nashor's Tooth", False, False))
 legendary_pool.append(Legendary("Navori Quickblades", False, False))
-legendary_pool.append(Legendary("Pauldrons of Whiterock", False, False))
+#legendary_pool.append(Legendary("Pauldrons of Whiterock", False, False)) #support starter
 legendary_pool.append(Legendary("Phantom Dancer", False, False))
 legendary_pool.append(Legendary("Rabadon's Deathcap", False, False))
 legendary_pool.append(Legendary("Randuin's Omen", False, False))
@@ -318,7 +318,7 @@ legendary_pool.append(Legendary("Seraph's Embrace", True, False)) # tear finishe
 legendary_pool.append(Legendary("Serpent's Fang", False, False))
 legendary_pool.append(Legendary("Serylda's Grudge", False, False))
 legendary_pool.append(Legendary("Shadowflame", False, False))
-legendary_pool.append(Legendary("Shard of True Ice", False, True))
+#legendary_pool.append(Legendary("Shard of True Ice", False, True)) #support starter
 legendary_pool.append(Legendary("Silvermere Dawn", False, False))
 legendary_pool.append(Legendary("Spirit Visage", False, False))
 legendary_pool.append(Legendary("Staff of Flowing Water", False, True))
