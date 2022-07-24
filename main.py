@@ -70,9 +70,7 @@ inspiration_slot3 = []
 shards_slot1 = ["Adaptive", "Attack Speed", "Ability Haste"]
 shards_slot2 = ["Adaptive", "Armor", "Magic Resist"]
 shards_slot3 = ["Health", "Armor", "Magic Resist"]
-shard_pool.append(shards_slot1)
-shard_pool.append(shards_slot2)
-shard_pool.append(shards_slot3)
+shard_pool.extend([shards_slot1, shards_slot2, shards_slot3])
 
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
