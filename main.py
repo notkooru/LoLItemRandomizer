@@ -228,14 +228,14 @@ champion_pool.append(Champion("Pantheon", True,False))
 champion_pool.append(Champion("Ornn", True,False))
 
 #Boots
-boots_pool.append(Boots("Boots of Speed")) #Tier 1 boots
-boots_pool.append(Boots("Berserker's Greaves"))
-boots_pool.append(Boots("Mobility Boots"))
-boots_pool.append(Boots("Boots of Swiftness"))
-boots_pool.append(Boots("Ionian Boots of Lucidity"))
-boots_pool.append(Boots("Mercury's Threads"))
-boots_pool.append(Boots("Plated Steelcaps"))
-boots_pool.append(Boots("Sorcerer's Shoes"))
+boots_pool.append("Boots of Speed") #Tier 1 boots
+boots_pool.append("Berserker's Greaves")
+boots_pool.append("Mobility Boots")
+boots_pool.append("Boots of Swiftness")
+boots_pool.append("Ionian Boots of Lucidity")
+boots_pool.append("Mercury's Threads")
+boots_pool.append("Plated Steelcaps")
+boots_pool.append("Sorcerer's Shoes")
 
 #Mythics
 mythic_pool.append(Mythic("Eclipse",False,False))
