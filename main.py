@@ -16,10 +16,6 @@ class Mythic:
         self.hasMana = hasMana
         self.hasManaRegen = hasManaRegen
 
-class Boots:
-    def __init__(self, name) -> None:
-        self.name = name
-
 class Legendary:
     def __init__(self, name, hasMana, hasManaRegen) -> None:
         self.name = name
