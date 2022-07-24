@@ -443,10 +443,11 @@ final_build = []
 final_build.append(random.choice(champion_pool))
 final_build.append(random.choice(mythic_pool))
 final_build.append(random.choice(boots_pool))
-final_build.append(random.choice(legendary_pool))
-final_build.append(random.choice(legendary_pool))
-final_build.append(random.choice(legendary_pool))
-final_build.append(random.choice(legendary_pool))
+
+while len(final_build) < 7:
+    item = random.choice(legendary_pool)
+    if item not in final_build:
+        final_build.append(item)
 
 final_runes = []
 primary_tree = random.choice(runes_pool)
