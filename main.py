@@ -72,6 +72,9 @@ inspiration_slot1 = []
 inspiration_slot2 = []
 inspiration_slot3 = []
 
+shards_slot1 = []
+shards_slot2 = []
+shards_slot3 = []
 #Champs
 champion_pool.append(Champion("Aatrox", False, False))
 champion_pool.append(Champion("Ahri", True, True))
