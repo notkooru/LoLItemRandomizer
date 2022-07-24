@@ -30,11 +30,6 @@ class Runes:
     def __init__(self, name) -> None:
         self.name = name
 
-class Shards:
-    def __init__(self, type, slot) -> None:
-        self.type = type
-        self.slot = slot
-
 champion_pool = []  #✓
 boots_pool = [] #✓
 mythic_pool = [] #✓
