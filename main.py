@@ -27,10 +27,8 @@ class Legendary:
         self.hasManaRegen = hasManaRegen
 
 class Runes:
-    def __init__(self, name,row,tree) -> None:
+    def __init__(self, name) -> None:
         self.name = name
-        self.row = row
-        self.tree = tree
 
 class Shards:
     def __init__(self, type, slot) -> None:
