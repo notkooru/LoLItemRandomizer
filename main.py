@@ -67,9 +67,9 @@ inspiration_slot1 = []
 inspiration_slot2 = []
 inspiration_slot3 = []
 
-shards_slot1 = []
-shards_slot2 = []
-shards_slot3 = []
+shards_slot1 = ["Adaptive", "Attack Speed", "Ability Haste"]
+shards_slot2 = ["Adaptive", "Armor", "Magic Resist"]
+shards_slot3 = ["Health", "Armor", "Magic Resist"]
 shard_pool.append(shards_slot1)
 shard_pool.append(shards_slot2)
 shard_pool.append(shards_slot3)
@@ -442,20 +442,6 @@ runes_pool.append(domination)
 runes_pool.append(sorcery)
 runes_pool.append(resolve)
 runes_pool.append(inspiration)
-
-#shards
-#slot 1
-shard_pool.append(Shards("Adaptive", 1))
-shard_pool.append(Shards("Attack Speed", 1))
-shard_pool.append(Shards("Ability Haste", 1))
-#slot 2
-shard_pool.append(Shards("Adaptive", 2))
-shard_pool.append(Shards("Armor", 2))
-shard_pool.append(Shards("Magic Resist", 2))
-#slot 3
-shard_pool.append(Shards("Health", 2))
-shard_pool.append(Shards("Armor", 2))
-shard_pool.append(Shards("Magic Resist", 2))
 
 final_build = []
 final_build.append(random.choice(champion_pool))
